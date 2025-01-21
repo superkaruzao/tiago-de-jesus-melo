@@ -12,8 +12,9 @@
     <style>
 
         .imagem_advogado img {
-            border: 5px solid #000;
+            border: 3px solid #000;
             border-radius: 50%;
+            display: none;
             object-fit: cover;
             height: 150px;
             margin-top: 2em;
@@ -48,6 +49,10 @@
         }
 
         @media (max-width: 768px) {
+
+            .imagem_advogado img {
+                display: block;
+            }
     
             .mapa iframe {
                 border: 0;
